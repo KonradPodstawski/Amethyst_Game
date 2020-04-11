@@ -1,11 +1,11 @@
 [package]
-name = "amethyst-starter-2d"
+name = "pong"
 version = "0.1.0"
-authors = ["Hilmar Wiegand <me@hwgnd.de>"]
+authors = ["Konrad Podstawski <krulgpl@wp.pl>"]
 edition = "2018"
 
 [dependencies]
-amethyst = "0.13.0"
+amethyst = "0.14.0"
 log = { version = "0.4.8", features = ["serde"] }
 
 [features]
@@ -13,4 +13,4 @@ default = ["vulkan"]
 empty = ["amethyst/empty"]
 metal = ["amethyst/metal"]
 vulkan = ["amethyst/vulkan"]
-nightly = ["amethyst/nightly"]
+# nightly = ["amethyst/nightly"]
